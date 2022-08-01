@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    color: #010304;
+    /* font-size: 17px;
+    line-height: 1.53;
+    font-family:  'Roboto','Poppins', sans-serif;
+    font-weight: 400; */
+    font: 17px/1.53 'Roboto' ,sans-serif;
+   
+}
+
+.hero-part{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.bg-strech{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom:0;
+    z-index: 0;
+}
