@@ -14,6 +14,21 @@ body{
    
 }
 
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 35px;
+    line-height: 2;
+    color: #010304;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 45px;
+}
+
 .hero-part{
 
     /* height:100vh; */
@@ -31,6 +46,7 @@ body{
     content: '';
     display: block;
     height: 100vh;
+   
 }
 
 .bg-strech{
@@ -82,6 +98,7 @@ h1{
     text-transform: uppercase;
     color: black;
     text-decoration: none;
+    text-align: center;
 }
 .btn.primary{
     padding: 18px 69px;
@@ -116,3 +133,54 @@ h1{
 .nav span{
     display: block;
 }
+.two-columns{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+}
+.two-columns .col{
+    width: 50%;
+    padding: 0 20px;
+  
+}
+.about-part{
+    padding: 120px 0;
+}
+.about-part .image-wrap{
+    position: relative;
+    /* width: 500px;
+    height: 345px; */
+    /* padding: height divided by width; */
+    padding-top: 61%;
+    overflow: hidden;
+    border-radius: 24px;
+}
+.about-part p{
+    margin: 0;
+}
+.about-part .btn-wrap{
+    margin-top: 60px;
+}
+.btn.secondary{
+    padding: 15px 15px;
+    min-width: 180px;
+    background-color: #bf3d42;
+    border: 2px solid #bf3d42;
+    border-radius: 30px;
+    color: white;
+}
+.style{
+    position: relative;
+    padding-left: 44px;
+}
+.style::after{
+    content: '';
+    position: absolute;
+    top: 9px;
+    left: 0;
+    width: 42px;
+    height: 42px;
+    background: url('../img/icon1.png') no-repeat center /cover;
+    display: block;
+}
+
