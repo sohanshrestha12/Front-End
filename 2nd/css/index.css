@@ -151,7 +151,7 @@ h1{
     /* width: 500px;
     height: 345px; */
     /* padding: height divided by width; */
-    padding-top: 61%;
+    padding-top: 65%;
     overflow: hidden;
     border-radius: 24px;
 }
@@ -182,5 +182,11 @@ h1{
     height: 42px;
     background: url('../img/icon1.png') no-repeat center /cover;
     display: block;
+}
+.two-columns .col.large-col{
+    width: 58.33%;
+}
+.two-columns .col.small-col{
+    width: 41.66%;
 }
 
