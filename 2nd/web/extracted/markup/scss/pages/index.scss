@@ -64,7 +64,7 @@
 }
 .products-part{
     text-align: center;
-  
+
     p{
         margin-bottom: 15px;
     }
@@ -104,15 +104,16 @@
             }
         }
 
-        
+
     }
     .product-code{
-        width: 62px;
-        height: 62px;
+        @include size(62px);
+        // width: 62px;
+        // height: 62px;
         border-radius: 50%;
         color: #fff;
         background-color: #191919;
-      
+
         font-size: 25px;
         border: 3px solid #b03d42;
         /* display: flex;
@@ -151,7 +152,77 @@
     color: #fff;
     font-family:'Poppins', sans-serif;
 }
-
+.process-part{
+    background-color: $dark-black;
+    text-align: center;
+    color: $white;
+    padding: 100px;
+    .container{
+        max-width: 1007px;
+    }
+    h2{
+        color: $white;
+        margin-bottom: 10px;
+    }
+    .heading-wrap{
+        max-width: 930px;
+        margin: 0 auto 85px;
+    }
+    .icon-wrap{
+        border: 1px solid $white;
+        height: 148px;
+        border-radius: 9px;
+        margin-bottom: 22px;
+        // display: flex;
+        // flex-wrap: wrap;
+        // align-items: center;
+        // justify-content: center;
+        @include flex(wrap,center,center);
+    }
+    .process-text{
+        @include align-vertical(top);
+        // display: inline-block;
+        // vertical-align: top;    
+        font-size: 20px;
+    }
+    .four-columns{
+        margin: 0 -31px 80px;
+        .col{
+            padding: 0 31px;
+        }
+    }
+    .btn{
+        text-transform: capitalize;
+    }
+}
+.feedback-part{
+    text-align: center;
+    .feedback-img{
+        @include size(158px);
+        margin: 0 auto;
+        border-radius: 50%;
+        border: 2px solid $red;
+        overflow: hidden;
+    }
+        img{
+            object-fit: cover;
+            height: 100%;
+            width: auto;
+        }
+        cite{
+            font-size: 19px;
+            line-height: 1.57;
+            text-transform: capitalize;
+            display: block;
+            font-style: normal;
+        }
+        q{
+            quotes: none;
+            display: inline-block;
+            vertical-align: top;
+        }
+    
+}
 
 
 

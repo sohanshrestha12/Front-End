@@ -1,7 +1,12 @@
+#wrapper{
+    position: relative;
+    overflow: hidden;
+}
 .container{
-    max-width: 1170px;
+    max-width: 1210px;//width+padding left+right+boder left+right
     width: 100%;
     margin: 0 auto;
+    padding: 0 20px;
 
     &.lg{
         max-width: 1310px;
@@ -22,7 +27,7 @@
         left: 0;
         width: 42px;
         height: 42px;
-        background: url('img/icon1.png') no-repeat center /cover;
+        background: url('../img/icon1.png') no-repeat center /cover;
         display: block;
     }
 }
