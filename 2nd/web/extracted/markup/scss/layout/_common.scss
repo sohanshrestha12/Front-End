@@ -115,7 +115,14 @@
 
     .col{
         padding: 0 10px;
+        flex: 1;
+        width: auto;
     }
+}
+
+.slick-arrow{
+    border: none;
+    background:none;
 }
 
 
